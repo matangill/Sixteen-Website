@@ -1,0 +1,73 @@
+body {
+    width: 360px;
+}
+
+.nav-bar {
+    height: 36px;
+    background: #9abd67 url(images/background.png)no-repeat top;
+    
+}
+
+.nav-bar .logo {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+    
+.greeting {
+    text-align: center;
+    line-height: 50px;
+    padding: 60px;
+    color: white;
+    height: 350px;
+    background: #9abd67 url(images/bkg-header-siluet.png) no-repeat bottom;
+    backgroung-img: url(images/arrow.png);
+}
+
+h1 {
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+
+h3 {
+    color: white;
+    font-family: "DroidSerif";
+    font-size: 13px;
+    font-style: italic;
+}
+
+.who_are_we {
+    background: #f7f7f7;
+    background-position: center;
+}
+
+.who_are_we {
+    text-align: center;
+}
+
+h2 {
+    color: #454545;
+    font-family: 'Source Sans Pro';
+    font-size: 33px;
+}
+
+p {
+    color: #454545;
+    font-family: 'Source Sans Pro';
+    font-size: 13px;
+}
+
+man_icon {
+
+    margin-left: 5px; }
+
+
+button {
+    color: #f7f7f7;
+    background: url(images/Button-Outline.png);
+    border-style: solid;
+    border-color: #acd373;
+    border-width: 1px;
+    font: italic 11px DroidSerif;
+    color: #acd473;
+}
