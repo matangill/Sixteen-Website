@@ -1,18 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+
+/* *, *:before, *:after {
+    box-sizing: inherit */
+
+
+}
 body {
     width: 360px;
+    margin: 0px;
 }
 
-.nav-bar {
-    height: 36px;
-    background: #9abd67 url(images/background.png)no-repeat top;
-    
+ h1,h2,h2 {
 }
 
-.nav-bar .logo {
-    margin-top: 8px;
-    margin-left: 5px;
+section {
+    padding: 30px;
+}
+
+/*
+p {
+ changes all <p>/<p> tags   
+}
+.p {
+    changes all class="p" 
 }
     
+#p {
+ changes all id="p"  
+}
+*/
+header {
+    height: 40px;
+    position: relative;
+    background: #acd373;
+}
+
+logo {
+    display: inline-block;
+}
+nav {
+    height: 40px;
+    width: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    background-color: #89a85c;
+    background-image: url(images/btn-tg-menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .greeting {
     text-align: center;
     line-height: 50px;
@@ -22,47 +62,49 @@ body {
     background: #9abd67 url(images/bkg-header-siluet.png) no-repeat bottom;
     backgroung-img: url(images/arrow.png);
 }
-
 h1 {
     color: white;
     font-family: 'Source Sans Pro';
     font-size: 20px;
+    text-transform: capitalize;
 }
-
-h3 {
+span {
     color: white;
     font-family: "DroidSerif";
     font-size: 13px;
     font-style: italic;
+    display: block;
 }
-
 .who_are_we {
     background: #f7f7f7;
     background-position: center;
 }
-
-.who_are_we {
-    text-align: center;
+.who_are_w e .iphone {
+    position: relative;
+    margin: 0 auto;
 }
-
 h2 {
     color: #454545;
     font-family: 'Source Sans Pro';
     font-size: 33px;
+    text-transform: capitalize;
+    background: url(images/man449.png) no-repeat;
+    padding-left: 37px;
 }
-
 p {
     color: #454545;
     font-family: 'Source Sans Pro';
     font-size: 13px;
 }
 
-man_icon {
+/*.man_icon {*/
 
-    margin-left: 5px; }
+/*    margin-left: 5px; */
 
+/*    margin-bottom: 20px*/
 
-button {
+}
+.who-we-are a {
     color: #f7f7f7;
     background: url(images/Button-Outline.png);
     border-style: solid;
