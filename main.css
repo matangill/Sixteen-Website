@@ -1,5 +1,5 @@
 html {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
@@ -9,17 +9,21 @@ html {
 
 }
 body {
-    width: 360px;
-    margin: 0px;
+	width: 360px;
+	margin: 0px;
 }
-
- h1,h2,h2 {
-}
+h1,h2,h3{}
 
 section {
-    padding: 30px;
-}
+	padding: 30px;}
+	
+/*Specific Page////////////// Section /////////////////	*/
+	
 
+/*///////////////////////////////////////////////////////
+	Header Section//////////////////////////////////////*/
+
+	
 /*
 p {
  changes all <p>/<p> tags   
@@ -33,68 +37,82 @@ p {
 }
 */
 header {
-    height: 40px;
-    position: relative;
-    background: #acd373;
+	height: 40px;
+	background-color: #acd373;
+	position: relative;
+}
+.logo {
+	display: inline-block;
+	position: 30px 0 0 30px;
 }
 
-logo {
-    display: inline-block;
-}
 nav {
-    height: 40px;
-    width: 40px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    display: inline-block;
-    background-color: #89a85c;
-    background-image: url(images/btn-tg-menu.png);
-    background-repeat: no-repeat;
-    background-position: center;
+	
+width: 40px;
+height: 40px;
+position: absolute;
+top: 0px;
+right: 0px;
+background-color: #89a85c;
+background-image: url(images/btn-tg-menu.png);
+background-repeat: no-repeat;
+background-position: center;
+	
+/*	greeting section*/
+	
+	
 }
 .greeting {
-    text-align: center;
-    line-height: 50px;
-    padding: 60px;
-    color: white;
-    height: 350px;
-    background: #9abd67 url(images/bkg-header-siluet.png) no-repeat bottom;
-    backgroung-img: url(images/arrow.png);
+	text-align: center;
+	padding: 60px;
+	color: white;
+	height: 350px;
+	background: #9abd67 url(images/bkg-header-siluet.png) no-repeat bottom;
+	background: -img: url(images/arrow.png);
 }
-h1 {
-    color: white;
-    font-family: 'Source Sans Pro';
-    font-size: 20px;
-    text-transform: capitalize;
+
+.greeting > div {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}
+ 
+ h1 {
+	color: white;
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	text-transform: capitalize;
 }
 span {
-    color: white;
-    font-family: "DroidSerif";
-    font-size: 13px;
-    font-style: italic;
-    display: block;
+	color: white;
+	font-family: "DroidSerif";
+	font-size: 13px;
+	font-style: italic;
+	display: block;
 }
 .who_are_we {
-    background: #f7f7f7;
-    background-position: center;
+	background: #f7f7f7;
+	background-position: center;
 }
-.who_are_w e .iphone {
-    position: relative;
-    margin: 0 auto;
+.who_are_we .iphone {
+	position: relative;
+	margin: 0 auto;
 }
-h2 {
-    color: #454545;
-    font-family: 'Source Sans Pro';
-    font-size: 33px;
-    text-transform: capitalize;
-    background: url(images/man449.png) no-repeat;
-    padding-left: 37px;
+.who_are_we h2{
+	color: #454545;
+	font-family: 'Source Sans Pro';
+	font-size: 33px;
+	text-transform: capitalize;
+	background: url(images/man449.png) no-repeat;
+	padding-left: 37px;
 }
 p {
-    color: #454545;
-    font-family: 'Source Sans Pro';
-    font-size: 13px;
+	color: #454545;
+	font-family: 'Source Sans Pro';
+	font-size: 13px;
+	width: 360px;
 }
 
 /*.man_icon {*/
@@ -104,12 +122,77 @@ p {
 /*    margin-bottom: 20px*/
 
 }
-.who-we-are a {
-    color: #f7f7f7;
-    background: url(images/Button-Outline.png);
-    border-style: solid;
-    border-color: #acd373;
-    border-width: 1px;
-    font: italic 11px DroidSerif;
-    color: #acd473;
+.who_are_we a{
+	color: #f7f7f7;
+	background: url(images/Button-Outline.png);
+	border-style: solid;
+	border-color: #acd373;
+	border-width: 1px;
+	font: italic 11px DroidSerif;
+	color: #acd473;
 }
+
+.our-services {
+	height: 500px;}
+ul {
+	list-style: none;
+}
+
+h2 {
+	color: #454545;
+	font-family: 'Source Sans Pro';
+	font-size: 33px;
+	text-transform: capitalize;
+	padding-left: 37px;
+	text-align: center;
+
+}
+
+span{
+	position: relative;
+	color: #454545;
+	font-family: "DroidSerif";
+	font-size: 13px;
+	font-style: italic;
+	display: block;
+	text-align: center;
+}
+hr { background-image:url(images/Shape-1.png);
+	color: #444444;
+	background-image: url(images/Ellipse-1.png);
+	width: 76px;
+	position: relative;
+}
+
+h3{
+	color: #acd373;
+	font-family: 'Source Sans Pro';
+    text-transform: uppercase; 
+	display: inline;
+	font-size: 18px;
+/*	padding: 20px;*/
+}
+
+
+a {
+	background: url(images/Button-Outline.png);
+	border-style: solid;
+	border-color: #acd373;
+	border-width: 1px;
+	font-family: DroidSerif;
+	font-size: 11px;
+	font-style: italic;
+	color: #acd473;
+}
+.description {
+/*float:right;	*/
+/*	width:360px;*/
+}
+
+
+/*div 
+	border-style: solid;
+	width: 1px;
+	color: red;
+	
+}*/
